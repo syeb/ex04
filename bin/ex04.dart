@@ -14,7 +14,7 @@ String fibonacciIteration(int t) {
       b = 1,
       f = 1,
       n = 1;
-  String result = '0' '1';
+  String result = '0 1';
   while (n < t) {
     f = a + b;
     result = '$result $f';
@@ -43,6 +43,7 @@ String interest(c1, c2, c3, c4, c5) {
 void ex01() {
   int count = 9; // On veut seulement 10 nombre en partant de 0.
   String sequence = fibonacciIteration(count);
+  print("");
   print("Question 1");
   print(
       "Print the first 10 numbers, starting with 0, of the Fibonacci sequence.");
@@ -62,6 +63,7 @@ void ex02() {
   num x1 = (width + p1);
   num y1 = (height + p2);
 
+  print("");
   print('Question 2');
   print (point('$center', '$x1', '$y1'));
 }
@@ -70,7 +72,6 @@ void ex02() {
 //Question 3
 
 void ex03() {
-
   DateTime Today = new DateTime.now();
   DateTime Birthday = new DateTime(1989, 08, 07, 0, 0, 0);
   Duration difference = Today.difference(Birthday);
@@ -78,6 +79,7 @@ void ex03() {
   var mois = (Today.month - Birthday.month) ;
   var jour = (Today.day - Birthday.day);
 
+  print("");
   print('Question 3');
   print(birthday('$annee','$mois','$jour'));
 }
@@ -86,7 +88,6 @@ void ex03() {
 //Question 4
 
 void ex04() {
-
   num initial = 1000;
   num fixed = 1.048;
   var c1 = (initial * pow(fixed,1))-1000;
@@ -95,20 +96,22 @@ void ex04() {
   var c4 = ((initial * pow(fixed,4))-1000).toStringAsFixed(2);
   var c5 = ((initial * pow(fixed,5))-1000).toStringAsFixed(2);
 
- print('Question 4');
- print (interest('$c1', '$c2', '$c3', '$c4', '$c5'));
+  print("");
+  print('Question 4');
+  print (interest('$c1', '$c2', '$c3', '$c4', '$c5'));
 }
 
 
 //Question 5
 
 void ex05() {
+  print("");
   print ('''Question 5
 Les 16 premiers termes de la table de multiplication de 8 sont:''');
   var x = 8;
-  for(var i = 0 ; i <= 16; i++){
-   var z = (x * i);
-   print('$x X $i = $z');
+  for(var i = 0 ; i <= 16; i++) {
+    var z = (x * i);
+    print('$x X $i = $z');
   }
 }
 

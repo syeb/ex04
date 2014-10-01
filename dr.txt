@@ -1,0 +1,8 @@
+ex04
+
+20/20
+
+attention: formatage (voir: https://www.dartlang.org/articles/style-guide/)
+
+ou est fonction pour 4.5?
+
