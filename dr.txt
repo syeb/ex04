@@ -1,8 +1,14 @@
 ex04
 
-20/20
+18/20
 
 attention: formatage (voir: https://www.dartlang.org/articles/style-guide/)
 
 ou est fonction pour 4.5?
+
+-2 Question 2
+Le point 400.0, 300.0 relié par la droite donne les points suivants:
+ (484.0515182108368, 436.14456392545895).
+Starts at (400.0, 300.0).
+The end point of the line is at (513.14, 413.14).
 
